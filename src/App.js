@@ -1,9 +1,13 @@
 import react from 'react';
+import Pokemonlist from './API/api';
 
-function App() {
+const App = () => {
   return (
-    null
+    <div>
+      <h1>Pokemon Entries</h1>
+      <Pokemonlist />
+    </div>
   );
-}
+};
 
 export default App;
